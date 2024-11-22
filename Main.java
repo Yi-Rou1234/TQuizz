@@ -16,23 +16,10 @@ public class Main {
             System.out.println("a. " + question.getOptionA());
             System.out.println("b. " + question.getOptionB());
             System.out.println("c. " + question.getOptionC());
-            System.out.print("Your answer or type 'exit' to quit: ");
-            String answer = scanner.nextLine();
 
-            if (answer.equalsIgnoreCase("exit")) {
-                break;
-            }
+            String answer = getValidInput(scanner, question);
 
-            while (!answer.equalsIgnoreCase("a") && !answer.equalsIgnoreCase("b") && !answer.equalsIgnoreCase("c")) {
-                System.out.println("Invalid input. Please enter 'a', 'b', 'c', or 'exit'.");
-                System.out.print("Your answer or type 'exit' to quit: ");
-                answer = scanner.nextLine();
-                if (answer.equalsIgnoreCase("exit")) {
-                    break;
-                }
-            }
-
-            if (answer.equalsIgnoreCase("exit")) {
+            if (answer.equals("exit")) {
                 break;
             }
 
@@ -50,5 +37,25 @@ public class Main {
         double percentage = ((double) correctAnswers / totalQuestions) * 100;
         System.out.println("You answered " + correctAnswers + " out of " + totalQuestions + " questions correctly.");
         System.out.println("Your score: " + percentage + "%");
+        scanner.close();
+    }
+
+    private static String getValidInput(Scanner scanner, Question question) {
+        String input;
+        while (true) {
+            System.out.print("Your answer or type 'exit' to quit: ");
+            input = scanner.nextLine().trim().toLowerCase();
+
+            if (input.equals("a") || input.equals("b") || input.equals("c") || input.equals("exit")) {
+                return input;
+            } else {
+                Trivial.clearConsole();
+                System.out.println("Invalid input. Please enter only 'a', 'b', 'c', or 'exit'.");
+                System.out.println(question.getQuestionText());
+                System.out.println("a. " + question.getOptionA());
+                System.out.println("b. " + question.getOptionB());
+                System.out.println("c. " + question.getOptionC());
+            }
+        }
     }
 }
