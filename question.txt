@@ -1,0 +1,30 @@
+Who is the main character of Naruto?;Naruto Uzumaki;Sasuke Uchiha;Sakura Haruno;a;anime
+What is the name of the pirate crew in One Piece?;Blackbeard Pirates;Straw Hat Pirates;Red Hair Pirates;b;anime
+In Attack on Titan, what are the giant humanoid creatures called?;Titans;Giants;Colossals;a;anime
+Who is the alchemist in Fullmetal Alchemist?;Edward Elric;Alphonse Elric;Roy Mustang;a;anime
+What is the name of the school in My Hero Academia?;UA High School;Shiketsu High School;Ketsubutsu Academy;a;anime
+In Dragon Ball Z, who is Goku's brother?;Vegeta;Raditz;Nappa;b;anime
+What is the name of the Death Note's Shinigami?;Ryuk;Rem;Gelus;a;anime
+In Sword Art Online, what is Kirito's real name?;Kazuto Kirigaya;Asuna Yuuki;Klein;a;anime
+Who is the main character in Bleach?;Ichigo Kurosaki;Rukia Kuchiki;Renji Abarai;a;anime
+What is the name of the cat in Fairy Tail?;Happy;Carla;Panther Lily;a;anime
+What is the main ingredient in guacamole?;Tomato;Avocado;Onion;b;food
+Which country is known for sushi?;China;Japan;Korea;b;food
+What is the primary ingredient in hummus?;Chickpeas;Lentils;Beans;a;food
+Which fruit is known as the "king of fruits"?;Apple;Mango;Durian;c;food
+What is the main ingredient in a traditional Italian pizza?;Mozzarella;Parmesan;Cheddar;a;food
+Which spice is known as the "queen of spices"?;Cinnamon;Cardamom;Clove;b;food
+What is the main ingredient in miso soup?;Soybeans;Tofu;Seaweed;a;food
+Which country is famous for its paella?;Italy;Spain;Portugal;b;food
+What is the main ingredient in a Caesar salad?;Lettuce;Spinach;Kale;a;food
+Which fruit is used to make wine?;Apple;Grape;Pear;b;food
+Who is known as the King of Pop?;Elvis Presley;Michael Jackson;Prince;b;music
+Which band released the album "Abbey Road"?;The Rolling Stones;The Beatles;Pink Floyd;b;music
+Who is the lead singer of U2?;Bono;The Edge;Adam Clayton;a;music
+What is the name of Beyoncé's alter ego?;Sasha Fierce;Queen B;Honey Bee;a;music
+Which artist is known for the song "Shape of You"?;Ed Sheeran;Justin Bieber;Shawn Mendes;a;music
+Who is the drummer for the band Nirvana?;Dave Grohl;Kurt Cobain;Krist Novoselic;a;music
+Which classical composer became deaf later in life?;Mozart;Beethoven;Bach;b;music
+What is the name of Taylor Swift's debut album?;Fearless;Red;Taylor Swift;c;music
+Who is known as the Queen of Soul?;Aretha Franklin;Whitney Houston;Mariah Carey;a;music
+Which band is known for the song "Bohemian Rhapsody"?;Queen;Led Zeppelin;The Who;a;music

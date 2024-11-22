@@ -1,0 +1,8 @@
+Question: Who is the main character in Bleach?
+Your answer: a
+Correct answer: a
+Result: Correct
+
+Total correct answers: 1
+Total questions: 10
+Score: 10.0%

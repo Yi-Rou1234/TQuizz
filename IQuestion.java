@@ -4,13 +4,15 @@ public class IQuestion {
     private String optionB;
     private String optionC;
     private String correctAnswer;
+    private String category;
 
-    public IQuestion(String questionText, String optionA, String optionB, String optionC, String correctAnswer) {
+    public IQuestion(String questionText, String optionA, String optionB, String optionC, String correctAnswer, String category) {
         this.questionText = questionText;
         this.optionA = optionA;
         this.optionB = optionB;
         this.optionC = optionC;
         this.correctAnswer = correctAnswer;
+        this.category = category;
     }
 
     public String getQuestionText() {
@@ -31,6 +33,10 @@ public class IQuestion {
 
     public String getCorrectAnswer() {
         return correctAnswer;
+    }
+
+    public String getCategory() {
+        return category;
     }
 
     public boolean isCorrect(String answer) {
