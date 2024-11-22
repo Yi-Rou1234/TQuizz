@@ -1,61 +1,12 @@
-import java.util.List;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Main {
-    private static int correctAnswers = 0;
-    private static int totalQuestions = 10;
-
-    public static void main(String[] args) {
-        Trivial.loadQuestions("question.txt");
-        List<Question> questions = Trivial.getQuestions();
+    public static void main(String[] args) throws IOException {
+        ITrivia trivial = new Trivia();
+        trivial.loadQuestions("question.txt");
         Scanner scanner = new Scanner(System.in);
-
-        for (Question question : questions) {
-            Trivial.clearConsole();
-            System.out.println(question.getQuestionText());
-            System.out.println("a. " + question.getOptionA());
-            System.out.println("b. " + question.getOptionB());
-            System.out.println("c. " + question.getOptionC());
-
-            String answer = getValidInput(scanner, question);
-
-            if (answer.equals("exit")) {
-                break;
-            }
-
-            if (question.isCorrect(answer)) {
-                System.out.println("Correct!");
-                correctAnswers++;
-            } else {
-                System.out.println("Incorrect. The correct answer was " + question.getCorrectAnswer() + ".");
-            }
-            // totalQuestions++;
-            System.out.print("Press Enter to continue...");
-            scanner.nextLine();
-        }
-
-        double percentage = ((double) correctAnswers / totalQuestions) * 100;
-        System.out.println("You answered " + correctAnswers + " out of " + totalQuestions + " questions correctly.");
-        System.out.println("Your score: " + percentage + "%");
+        trivial.processQuestions(scanner);
         scanner.close();
-    }
-
-    private static String getValidInput(Scanner scanner, Question question) {
-        String input;
-        while (true) {
-            System.out.print("Your answer or type 'exit' to quit: ");
-            input = scanner.nextLine().trim().toLowerCase();
-
-            if (input.equals("a") || input.equals("b") || input.equals("c") || input.equals("exit")) {
-                return input;
-            } else {
-                Trivial.clearConsole();
-                System.out.println("Invalid input. Please enter only 'a', 'b', 'c', or 'exit'.");
-                System.out.println(question.getQuestionText());
-                System.out.println("a. " + question.getOptionA());
-                System.out.println("b. " + question.getOptionB());
-                System.out.println("c. " + question.getOptionC());
-            }
-        }
     }
 }

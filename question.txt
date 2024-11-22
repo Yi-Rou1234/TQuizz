@@ -7,4 +7,4 @@ What is the speed of light?;300,000 km/s;150,000 km/s;450,000 km/s;a
 Who painted the Mona Lisa?;Vincent van Gogh;Pablo Picasso;Leonardo da Vinci;c
 What is the smallest prime number?;1;2;3;b
 What is the main ingredient in guacamole?;Tomato;Avocado;Onion;b
-What is the tallest mountain in the world?;K2;Kangchenjunga;Mount Everest;c
+What is the tallest mountain in the world?;K2;Kangchenjunga;Mount Everest;a

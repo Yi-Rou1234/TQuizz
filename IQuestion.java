@@ -1,11 +1,11 @@
-public class Question {
+public class IQuestion {
     private String questionText;
     private String optionA;
     private String optionB;
     private String optionC;
     private String correctAnswer;
 
-    public Question(String questionText, String optionA, String optionB, String optionC, String correctAnswer) {
+    public IQuestion(String questionText, String optionA, String optionB, String optionC, String correctAnswer) {
         this.questionText = questionText;
         this.optionA = optionA;
         this.optionB = optionB;
