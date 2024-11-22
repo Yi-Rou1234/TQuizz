@@ -24,7 +24,7 @@ public class Trivia implements ITrivia {
     }
 
     @Override
-    public void processQuestions(Scanner scanner) {
+    public void run(Scanner scanner) {
         int correctAnswers = 0;
         int totalQuestions = questions.size();
 

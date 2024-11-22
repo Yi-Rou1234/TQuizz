@@ -3,5 +3,5 @@ import java.util.Scanner;
 
 public interface ITrivia {
     void loadQuestions(String filename) throws IOException;
-    void processQuestions(Scanner scanner);
+    void run(Scanner scanner);
 }

@@ -1,0 +1,10 @@
+Who is the main character of Naruto?;Naruto Uzumaki;Sasuke Uchiha;Sakura Haruno;a
+What is the name of the pirate crew in One Piece?;Blackbeard Pirates;Straw Hat Pirates;Red Hair Pirates;b
+In Attack on Titan, what are the giant humanoid creatures called?;Titans;Giants;Colossals;a
+Who is the alchemist in Fullmetal Alchemist?;Edward Elric;Alphonse Elric;Roy Mustang;a
+What is the name of the school in My Hero Academia?;UA High School;Shiketsu High School;Ketsubutsu Academy;a
+In Dragon Ball Z, who is Goku's brother?;Vegeta;Raditz;Nappa;b
+What is the name of the Death Note's Shinigami?;Ryuk;Rem;Gelus;a
+In Sword Art Online, what is Kirito's real name?;Kazuto Kirigaya;Asuna Yuuki;Klein;a
+Who is the main character in Bleach?;Ichigo Kurosaki;Rukia Kuchiki;Renji Abarai;a
+What is the name of the cat in Fairy Tail?;Happy;Carla;Panther Lily;a

@@ -34,4 +34,25 @@ public class Helper implements IHelper {
             }
         }
     }
+
+    @Override
+    public String getValidCategory(Scanner scanner, String prompt) {
+        String input;
+        while (true) {
+            System.out.print(prompt);
+            input = scanner.nextLine().trim().toLowerCase();
+
+            switch (input) {
+                case "a":
+                    return "anime.txt";
+                case "b":
+                    return "music.txt";
+                case "c":
+                    return "food.txt";
+                default:
+                    clearConsole();
+                    System.out.println("Invalid input. Please enter 'a', 'b', or 'c'.");
+            }
+        }
+    }
 }

@@ -1,0 +1,10 @@
+What is the main ingredient in guacamole?;Tomato;Avocado;Onion;b
+Which country is known for sushi?;China;Japan;Korea;b
+What is the primary ingredient in hummus?;Chickpeas;Lentils;Beans;a
+Which fruit is known as the "king of fruits"?;Apple;Mango;Durian;c
+What is the main ingredient in a traditional Italian pizza?;Mozzarella;Parmesan;Cheddar;a
+Which spice is known as the "queen of spices"?;Cinnamon;Cardamom;Clove;b
+What is the main ingredient in miso soup?;Soybeans;Tofu;Seaweed;a
+Which country is famous for its paella?;Italy;Spain;Portugal;b
+What is the main ingredient in a Caesar salad?;Lettuce;Spinach;Kale;a
+Which fruit is used to make wine?;Apple;Grape;Pear;b

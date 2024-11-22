@@ -1,0 +1,10 @@
+Who is known as the King of Pop?;Elvis Presley;Michael Jackson;Prince;b
+Which band released the album "Abbey Road"?;The Rolling Stones;The Beatles;Pink Floyd;b
+Who is the lead singer of U2?;Bono;The Edge;Adam Clayton;a
+What is the name of Beyoncé's alter ego?;Sasha Fierce;Queen B;Honey Bee;a
+Which artist is known for the song "Shape of You"?;Ed Sheeran;Justin Bieber;Shawn Mendes;a
+Who is the drummer for the band Nirvana?;Dave Grohl;Kurt Cobain;Krist Novoselic;a
+Which classical composer became deaf later in life?;Mozart;Beethoven;Bach;b
+What is the name of Taylor Swift's debut album?;Fearless;Red;Taylor Swift;c
+Who is known as the Queen of Soul?;Aretha Franklin;Whitney Houston;Mariah Carey;a
+Which band is known for the song "Bohemian Rhapsody"?;Queen;Led Zeppelin;The Who;a

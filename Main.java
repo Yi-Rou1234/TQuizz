@@ -3,10 +3,13 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        ITrivia trivial = new Trivia();
-        trivial.loadQuestions("question.txt");
+        ITrivia trivia = new Trivia();
+        IHelper helper = new Helper();
         Scanner scanner = new Scanner(System.in);
-        trivial.processQuestions(scanner);
+        String category = helper.getValidCategory(scanner, "Choose a category: a. anime, b. music, c. food: ");
+
+        trivia.loadQuestions(category);
+        trivia.run(scanner);
         scanner.close();
     }
 }
